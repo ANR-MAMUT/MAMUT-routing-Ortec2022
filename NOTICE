@@ -1,0 +1,16 @@
+MAMUT-routing Ortec2022 third-party and data-license notice
+===========================================================
+
+This repository holds the Ortec2022 benchmark family of MAMUT-routing (https://github.com/ANR-MAMUT/MAMUT-routing). MAMUT-routing is a mixed software and benchmark project. Its source code is MIT-licensed unless a file says otherwise. Benchmark data and generated artifacts are licensed at the benchmark-family level, and the LICENSE file of this repository gives the terms of this family.
+
+Component licensing
+-------------------
+
+- Ortec2022 (VRPTW): ORTEC instances and related redistributed BKS files are provided under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+
+Attribution
+-----------
+
+ORTEC benchmark artifacts are derived from the EURO Meets NeurIPS 2022 Vehicle Routing Competition material and retain the original CC BY-NC 4.0 terms: https://creativecommons.org/licenses/by-nc/4.0/
+
+Users redistributing this benchmark family, or a subset of it, should preserve this NOTICE and the README.md and LICENSE files of this repository.
