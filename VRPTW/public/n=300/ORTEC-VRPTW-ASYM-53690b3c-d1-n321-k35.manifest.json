@@ -1,0 +1,30 @@
+{
+  "benchmark_revision": "r1",
+  "cost_is_travel_time": true,
+  "default_profile": "binary64-exact-v1",
+  "family": "Ortec2022",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits",
+    "service-start-windows"
+  ],
+  "instance": {
+    "path": "VRPTW/public/n=300/ORTEC-VRPTW-ASYM-53690b3c-d1-n321-k35.vrp.json",
+    "sha256": "32539df422f784e0a2cbd596fa493cf1f95610c5eedcc9b1a65f06cb4cf94185"
+  },
+  "instance_name": "ORTEC-VRPTW-ASYM-53690b3c-d1-n321-k35",
+  "materialization": {
+    "interpretation": "binary64",
+    "kind": "embedded-matrix",
+    "matrix_sha256": "29e11432a5a53ed8eccc6e188e1096cf7b8e6bc7c6abc0c2937c102b2aaecfba"
+  },
+  "objective": "MonoCost",
+  "problem": "VRPTW",
+  "sidecars": [],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "second",
+    "time": "second"
+  }
+}
