@@ -30,7 +30,6 @@
         "seed": 123,
         "time_limit_s": 1000,
         "wall_time": 1000.1551057249999,
-        "solver_cost": 201902,
         "all_seed_costs": [
             [42, 202268],
             [123, 201902],
