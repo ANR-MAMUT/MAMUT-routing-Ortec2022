@@ -1,0 +1,29 @@
+{
+  "benchmark_revision": "r1",
+  "family": "Ortec2022",
+  "format": "mamut-routing-family-replay-overlay-v1",
+  "overlay": {
+    "bytes": 384547,
+    "path": ".mamut/artifacts/a819768700e309e197111a63694f258891309afc901557263f22d0d081fbcf75/Ortec2022-r1-before-static-manifest-cleanup.tar.gz",
+    "scope": "file",
+    "sha256": "a819768700e309e197111a63694f258891309afc901557263f22d0d081fbcf75"
+  },
+  "predecessor_family_commit": "30e8119d75bd4fd41b676fda4e700944c134ddcb",
+  "predecessor_index": {
+    "path": ".mamut/editions/r1-index.json",
+    "sha256": "94b06ab85ba2ce411cfa238c17b404c8756cecbd8f4878f03c1ce72cd2937c04"
+  },
+  "predecessor_manifest_archive": {
+    "path": ".mamut/editions/r1-manifests.tar.gz",
+    "sha256": "f6b3823703de4ab830eee61efc831e0ee2f122d9fc28d7c76b3731b098693c05"
+  },
+  "preserved_files": 702,
+  "replay": [
+    "Make a disposable copy of this reissued family from its snapshot.",
+    "Verify the overlay file SHA-256 against this record, then extract its family-relative files over that copy.",
+    "The restored r1 index and manifest archive identify the predecessor. Verify each restored incumbent against its adjacent manifest.",
+    "Use the descriptor, sidecars and pinned materialization recipes supplied in the copied family. For an omitted matrix, run its original recipe and check the matrix digest before replay."
+  ],
+  "specification": "mamut-routing/0.1",
+  "static_incumbents": 350
+}
